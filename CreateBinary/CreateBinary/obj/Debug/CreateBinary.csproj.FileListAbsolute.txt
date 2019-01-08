@@ -12,3 +12,10 @@ C:\Users\Guillermo\Documents\PruebasVarias\Prototype\CreateBinary\CreateBinary\o
 C:\Users\Guillermo\Documents\PruebasVarias\Prototype\CreateBinary\CreateBinary\obj\Debug\CreateBinary.csproj.CoreCompileInputs.cache
 C:\Users\Guillermo\Documents\PruebasVarias\Prototype\CreateBinary\CreateBinary\obj\Debug\CreateBinary.exe
 C:\Users\Guillermo\Documents\PruebasVarias\Prototype\CreateBinary\CreateBinary\obj\Debug\CreateBinary.pdb
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\CreateBinary\CreateBinary\bin\Debug\CreateBinary.exe.config
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\CreateBinary\CreateBinary\bin\Debug\CreateBinary.exe
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\CreateBinary\CreateBinary\bin\Debug\CreateBinary.pdb
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\CreateBinary\CreateBinary\obj\Debug\CreateBinary.csprojAssemblyReference.cache
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\CreateBinary\CreateBinary\obj\Debug\CreateBinary.csproj.CoreCompileInputs.cache
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\CreateBinary\CreateBinary\obj\Debug\CreateBinary.exe
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\CreateBinary\CreateBinary\obj\Debug\CreateBinary.pdb

@@ -74,22 +74,28 @@ namespace CreateBinary
                         //bw.Write(tam_cad);
                         //bw.Write(StringToBinary(cadena));
                         break;
-/*
+
                     case "double":
                         //Console.WriteLine("Enter the double Number: ");
                         //double d = Convert.ToSByte(Console.ReadLine());
-                        //double d = 112.115;
-                        bw.Write(StringToBinary("64"));
-                        bw.Write(112.115);                       
+                        double d = 112.115;
+                        sw.WriteLine(StringToBinary("64"));
+                        sw.WriteLine(StringToBinary(d.ToString()));
+
+                        //bw.Write(StringToBinary("64"));
+                        //bw.Write(112.115);                       
                         break;
 
                     case "float":
                         Console.WriteLine("Enter the float Number: ");
                         //float f= Convert.ToSByte(Console.ReadLine());                       
-                        //float f = 95.32F;
-                        bw.Write(StringToBinary("32"));
-                        bw.Write(95.32F);                       
-                        break;*/
+                        float f = 95.32F;
+                        sw.WriteLine(StringToBinary("32"));
+                        sw.WriteLine(StringToBinary(f.ToString()));
+
+                        //bw.Write(StringToBinary("32"));
+                        //bw.Write(95.32F);                       
+                        break;
                 }
             }
             sw.Close();
