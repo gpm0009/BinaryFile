@@ -1,0 +1,14 @@
+C:\Users\Guillermo\Documents\Universidad\Erasmus\Clases\SoftwareEngineering\Lab\Projects\BinaryFile\Prototipo\Prototype\CreateBinary\CreateBinary\bin\Debug\CreateBinary.exe.config
+C:\Users\Guillermo\Documents\Universidad\Erasmus\Clases\SoftwareEngineering\Lab\Projects\BinaryFile\Prototipo\Prototype\CreateBinary\CreateBinary\bin\Debug\CreateBinary.exe
+C:\Users\Guillermo\Documents\Universidad\Erasmus\Clases\SoftwareEngineering\Lab\Projects\BinaryFile\Prototipo\Prototype\CreateBinary\CreateBinary\bin\Debug\CreateBinary.pdb
+C:\Users\Guillermo\Documents\Universidad\Erasmus\Clases\SoftwareEngineering\Lab\Projects\BinaryFile\Prototipo\Prototype\CreateBinary\CreateBinary\obj\Debug\CreateBinary.csprojAssemblyReference.cache
+C:\Users\Guillermo\Documents\Universidad\Erasmus\Clases\SoftwareEngineering\Lab\Projects\BinaryFile\Prototipo\Prototype\CreateBinary\CreateBinary\obj\Debug\CreateBinary.csproj.CoreCompileInputs.cache
+C:\Users\Guillermo\Documents\Universidad\Erasmus\Clases\SoftwareEngineering\Lab\Projects\BinaryFile\Prototipo\Prototype\CreateBinary\CreateBinary\obj\Debug\CreateBinary.exe
+C:\Users\Guillermo\Documents\Universidad\Erasmus\Clases\SoftwareEngineering\Lab\Projects\BinaryFile\Prototipo\Prototype\CreateBinary\CreateBinary\obj\Debug\CreateBinary.pdb
+C:\Users\Guillermo\Documents\PruebasVarias\Prototype\CreateBinary\CreateBinary\bin\Debug\CreateBinary.exe.config
+C:\Users\Guillermo\Documents\PruebasVarias\Prototype\CreateBinary\CreateBinary\bin\Debug\CreateBinary.exe
+C:\Users\Guillermo\Documents\PruebasVarias\Prototype\CreateBinary\CreateBinary\bin\Debug\CreateBinary.pdb
+C:\Users\Guillermo\Documents\PruebasVarias\Prototype\CreateBinary\CreateBinary\obj\Debug\CreateBinary.csprojAssemblyReference.cache
+C:\Users\Guillermo\Documents\PruebasVarias\Prototype\CreateBinary\CreateBinary\obj\Debug\CreateBinary.csproj.CoreCompileInputs.cache
+C:\Users\Guillermo\Documents\PruebasVarias\Prototype\CreateBinary\CreateBinary\obj\Debug\CreateBinary.exe
+C:\Users\Guillermo\Documents\PruebasVarias\Prototype\CreateBinary\CreateBinary\obj\Debug\CreateBinary.pdb
