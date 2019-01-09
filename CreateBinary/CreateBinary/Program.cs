@@ -46,7 +46,7 @@ namespace CreateBinary
                 string tipo = StringToBinary(tip);
                 sw.WriteLine(tipo);
                 //bw.Write(tipo);
-
+                
                 switch (tip)
                 {
                     case "int":
@@ -99,9 +99,7 @@ namespace CreateBinary
                 }
             }
             sw.Close();
-            //bw.Close();
             bw_aux.Close();
-            //fich.Close();
             fich_aux.Close();
         }
         
@@ -154,6 +152,15 @@ namespace CreateBinary
 
         static void Main(string[] args)
         {
+         /*   //making some tries.
+            Console.WriteLine("Enter the word:");
+            string word=Console.ReadLine();
+            Console.WriteLine(StringToBinary(word));
+
+            Console.WriteLine("Enter the word:");
+            string word2 = Console.ReadLine();
+            Console.WriteLine(StringToBinary(word2));
+            */
             CreateBinary();
             ReadBinary();
             Console.ReadKey();
@@ -161,14 +168,3 @@ namespace CreateBinary
     }
 }
 
-/*
-        static void ReadBinary()
-        {
-            Console.WriteLine("Which file do you want to preview: ");
-            string fileName = Console.ReadLine();
-            FileStream fs = new FileStream(fileName + ".bin", FileMode.Open);
-            BinaryReader br = new BinaryReader(fs);
-
-            string read = br.ReadString();
-            Console.WriteLine(read);
-        }*/
