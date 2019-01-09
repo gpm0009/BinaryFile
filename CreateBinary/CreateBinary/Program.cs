@@ -46,42 +46,58 @@ namespace CreateBinary
                 string tipo = StringToBinary(tip);
                 sw.WriteLine(tipo);
                 //bw.Write(tipo);
-                
+
+                int aux = 0;
                 switch (tip)
                 {
                     case "int":
                         Console.WriteLine("Enter the INT Number: ");
                         int t = Console.Read();
-                        int num = Convert.ToSByte(t);
+                        //int num = Convert.ToSByte(t);
+                        Console.WriteLine("Enter the number of iterations: ");
+                        int it = Console.Read();                        
                         sw.WriteLine(StringToBinary("32"));
-                        sw.WriteLine(StringToBinary(t.ToString()));
-                        //bw.Write(StringToBinary("32"));
-                        //bw.Write(num);
+                        while (aux < it) { 
+                            sw.WriteLine(StringToBinary(t.ToString()));
+                            aux++;
+                        }
                         break;
 
                     case "string":
                         int tam_cad = 0;
                         Console.WriteLine("Enter the String: ");
                         string cadena = Console.ReadLine();
-                       
+                        Console.WriteLine("Enter the number of iterations: ");
+                        int its = Console.Read();
+
                         foreach (char L in cadena.ToCharArray())
                         {
                             bw_aux.Write(Convert.ToString(L, 2).PadLeft(8, '0'));
                             tam_cad++;
                         }
                         sw.WriteLine(StringToBinary(tam_cad.ToString()));
-                        sw.WriteLine(StringToBinary(cadena));
-                        //bw.Write(tam_cad);
-                        //bw.Write(StringToBinary(cadena));
+                        Console.WriteLine(Convert.ToSByte(its));
+                        Console.WriteLine(aux);
+                        Console.WriteLine((int) its);
+                        while (aux<Convert.ToSByte(its)) { 
+                            sw.WriteLine(StringToBinary(cadena));
+                            aux++;
+                        }
                         break;
 
                     case "double":
                         //Console.WriteLine("Enter the double Number: ");
                         //double d = Convert.ToSByte(Console.ReadLine());
                         double d = 112.115;
-                        sw.WriteLine(StringToBinary("64"));
-                        sw.WriteLine(StringToBinary(d.ToString()));
+                        Console.WriteLine("Enter the number of iterations: ");
+                        int itd = Console.Read();
 
+                        sw.WriteLine(StringToBinary("64"));
+                        while (aux < itd)
+                        {
+                            sw.WriteLine(StringToBinary(d.ToString()));
+                            aux++;
+                        }
                         //bw.Write(StringToBinary("64"));
                         //bw.Write(112.115);                       
                         break;
@@ -90,11 +106,15 @@ namespace CreateBinary
                         Console.WriteLine("Enter the float Number: ");
                         //float f= Convert.ToSByte(Console.ReadLine());                       
                         float f = 95.32F;
+                        Console.WriteLine("Enter the number of iterations: ");
+                        int itf = Console.Read();
+                        
                         sw.WriteLine(StringToBinary("32"));
-                        sw.WriteLine(StringToBinary(f.ToString()));
-
-                        //bw.Write(StringToBinary("32"));
-                        //bw.Write(95.32F);                       
+                        while (aux < itf)
+                        {
+                            sw.WriteLine(StringToBinary(f.ToString()));
+                            aux++;
+                        }                                              
                         break;
                 }
             }
@@ -114,12 +134,30 @@ namespace CreateBinary
             //string read = br.ReadString();
             //Console.WriteLine(BinaryToString(read));
             int n = 0;
-            while (n < 7) {
+            while (n<50) {
                 Console.WriteLine(BinaryToString(sr.ReadLine()));
-                n++;
+                /*string tipo = BinaryToString(sr.ReadLine());
+                switch(tipo){
+                    case "string":
+
+                        break;
+
+                    case "int":
+
+                        break;
+
+                    case "float":
+
+                        break;
+
+                    case "double":
+
+                        break;
+
+                }
+                n +=3;*/
             }
-            
-    
+
             sr.Close();
            // fs.Close();
            // fs.Close();
