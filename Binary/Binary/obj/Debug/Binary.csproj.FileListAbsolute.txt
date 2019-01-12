@@ -1,0 +1,10 @@
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\Binary\Binary\bin\Debug\Binary.exe.config
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\Binary\Binary\bin\Debug\Binary.exe
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\Binary\Binary\bin\Debug\Binary.pdb
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\Binary\Binary\obj\Debug\Binary.csprojAssemblyReference.cache
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\Binary\Binary\obj\Debug\Binary.Form1.resources
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\Binary\Binary\obj\Debug\Binary.Properties.Resources.resources
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\Binary\Binary\obj\Debug\Binary.csproj.GenerateResource.cache
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\Binary\Binary\obj\Debug\Binary.csproj.CoreCompileInputs.cache
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\Binary\Binary\obj\Debug\Binary.exe
+C:\Users\Guillermo\Documents\PruebasVarias\PruebaGitHub\BinaryFile\BinaryFile\Binary\Binary\obj\Debug\Binary.pdb

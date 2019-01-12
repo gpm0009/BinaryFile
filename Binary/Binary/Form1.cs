@@ -12,6 +12,9 @@ namespace Binary
 {
     public partial class Form1 : Form
     {
+
+        String FileName = "";
+
         public Form1()
         {
             InitializeComponent();
@@ -21,6 +24,9 @@ namespace Binary
         private void but_ToText_Click(object sender, EventArgs e)
         {
             //Accion que traducira el fichero.
+            FileName = BoxFileName.Text;
+            MessageBox.Show(FileName);
         }
+
     }
 }
