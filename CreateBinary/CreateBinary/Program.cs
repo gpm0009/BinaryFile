@@ -67,28 +67,29 @@ namespace CreateBinary
                         int tam_cad = 0;
                         Console.WriteLine("Enter the String: ");
                         string cadena = Console.ReadLine();
-                        //Console.WriteLine("Enter the number of iterations: ");
-                        //int its = Console.Read();
+                        Console.WriteLine("Enter the number of iterations: ");
+                        int its = Console.Read();
 
                         foreach (char L in cadena.ToCharArray())
                         {
                             bw_aux.Write(Convert.ToString(L, 2).PadLeft(8, '0'));
                             tam_cad++;
                         }
-                       
-                        sw.WriteLine(StringToBinary(tam_cad.ToString()));
-                        sw.WriteLine(StringToBinary(cadena));
-                       // Console.WriteLine(Convert.ToSByte(its));
-                        //Console.WriteLine(aux);
-                        //Console.WriteLine((int) its);
-                        //while (aux<Convert.ToSByte(its)) { 
-                        //    sw.WriteLine(StringToBinary(cadena));
-                        //    aux++;
-                        //}
+
+                        //sw.WriteLine(StringToBinary(tam_cad.ToString()));
+                        //sw.WriteLine(StringToBinary(cadena));
+                        Console.WriteLine(Convert.ToSByte(its));
+                        Console.WriteLine(aux);
+                        Console.WriteLine((int)its);
+                        while (aux < Convert.ToSByte(its))
+                        {
+                            sw.WriteLine(StringToBinary(cadena));
+                            aux++;
+                        }
                         break;
 
                     case "double":
-                        //Console.WriteLine("Enter the double Number: ");
+                        // Console.WriteLine("Enter the double Number: ");
                         //double d = Convert.ToSByte(Console.ReadLine());
                         double d = 112.115;
                         Console.WriteLine("Enter the number of iterations: ");

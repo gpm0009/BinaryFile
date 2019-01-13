@@ -15,8 +15,6 @@ namespace Binary
     {
 
         private String FileName = "";
-        private String texto = "";
-        //private List<string> texto = new List<string>();
         public Form1()
         {
             InitializeComponent();
@@ -25,17 +23,10 @@ namespace Binary
         
         private void but_ToText_Click(object sender, EventArgs e)
         {
-            //Accion que traducira el fichero.
             FileName = BoxFileName.Text;
             pictureBox1.Visible=true;
             groupBox1.Visible = true;
-            //List<String> red=ReadBinary(FileName);
-            //textBox2.Visible = true;
-            //foreach (var i in red)
-            //{
-            //    textBox2.AppendText(i);
-            //    textBox2.AppendText("\n");
-            //}
+           
             
             StreamReader sr = new StreamReader(FileName);
             int n = 0;
@@ -46,7 +37,6 @@ namespace Binary
                 n++;
             }
             sr.Close();
-
         }
 
         public static List<String> ReadBinary(string file)
@@ -96,7 +86,8 @@ namespace Binary
                 sw.WriteLine(i);
             }
             sw.Close();
-            MessageBox.Show("Save");
-        }
+            MessageBox.Show("Success");
+            Application.Exit();
+        } 
     }
 }

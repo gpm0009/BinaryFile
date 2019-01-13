@@ -38,9 +38,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -134,15 +134,12 @@
             this.groupBox2.Text = "TextFile";
             this.groupBox2.Visible = false;
             // 
-            // button1
+            // textBox3
             // 
-            this.button1.Location = new System.Drawing.Point(153, 233);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 28);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Save txt File";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.textBox3.Location = new System.Drawing.Point(131, 207);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 9;
             // 
             // label3
             // 
@@ -153,12 +150,15 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Introduce txt File name:";
             // 
-            // textBox3
+            // button1
             // 
-            this.textBox3.Location = new System.Drawing.Point(131, 207);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 9;
+            this.button1.Location = new System.Drawing.Point(153, 233);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(106, 28);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Save txt File";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
