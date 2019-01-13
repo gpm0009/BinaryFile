@@ -25,20 +25,28 @@ namespace Binary
         
         private void but_ToText_Click(object sender, EventArgs e)
         {
-            FileStream fs= File.Create("Hola.txt");
-            fs.Close();
             //Accion que traducira el fichero.
             FileName = BoxFileName.Text;
-            //MessageBox.Show(FileName);
             pictureBox1.Visible=true;
             groupBox1.Visible = true;
-            List<String> red=ReadBinary(FileName);
-            textBox2.Visible = true;
-            foreach (var i in red)
+            //List<String> red=ReadBinary(FileName);
+            //textBox2.Visible = true;
+            //foreach (var i in red)
+            //{
+            //    textBox2.AppendText(i);
+            //    textBox2.AppendText("\n");
+            //}
+            
+            StreamReader sr = new StreamReader(FileName);
+            int n = 0;
+            while (n < 8)
             {
-                textBox2.AppendText(i);
-                textBox2.AppendText("\n");
+                string linea = sr.ReadLine();
+                textBox1.AppendText(linea);
+                n++;
             }
+            sr.Close();
+
         }
 
         public static List<String> ReadBinary(string file)
@@ -65,6 +73,30 @@ namespace Binary
                 byteList.Add(Convert.ToByte(data.Substring(i, 8), 2));
             }
             return Encoding.ASCII.GetString(byteList.ToArray());
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            List<String> red = ReadBinary(FileName);
+            groupBox2.Visible = true;
+            foreach (var i in red)
+            {
+                textBox2.AppendText(i);
+                textBox2.AppendText("\n");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string te = textBox2.Text;
+            string fileName_txt=textBox3.Text;
+            StreamWriter sw = new StreamWriter(fileName_txt+".txt");
+            foreach (var i in te)
+            {
+                sw.WriteLine(i);
+            }
+            sw.Close();
+            MessageBox.Show("Save");
         }
     }
 }
