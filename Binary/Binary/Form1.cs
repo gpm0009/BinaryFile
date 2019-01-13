@@ -15,6 +15,7 @@ namespace Binary
     {
 
         private String FileName = "";
+        private String texto = "";
         //private List<string> texto = new List<string>();
         public Form1()
         {
@@ -24,52 +25,37 @@ namespace Binary
         
         private void but_ToText_Click(object sender, EventArgs e)
         {
-            
+            FileStream fs= File.Create("Hola.txt");
+            fs.Close();
             //Accion que traducira el fichero.
             FileName = BoxFileName.Text;
             //MessageBox.Show(FileName);
             pictureBox1.Visible=true;
             groupBox1.Visible = true;
-            List<string> traduc=ReadBinary(FileName);
+            List<String> red=ReadBinary(FileName);
             textBox2.Visible = true;
-            textBox2.AppendText(traduc.ToString());
-
+            foreach (var i in red)
+            {
+                textBox2.AppendText(i);
+                textBox2.AppendText("\n");
+            }
         }
 
-        static List<string> ReadBinary(string file)
+        public static List<String> ReadBinary(string file)
         {
-            List<string> texto = new List<string>();
+            List<string> tex = new List<string>();
             StreamReader sr = new StreamReader(file);
             int n = 0;
-            while (n < 50)
+            while (n < 8)
             {
-               
-                texto.Add(BinaryToString(sr.ReadLine()));
-                /*string tipo = BinaryToString(sr.ReadLine());
-                switch(tipo){
-                    case "string":
-
-                        break;
-
-                    case "int":
-
-                        break;
-
-                    case "float":
-
-                        break;
-
-                    case "double":
-
-                        break;
-
-                }
-                n +=3;*/
+                string linea = sr.ReadLine();
+                tex.Add(BinaryToString(linea)); 
+                n++;
             }
-
             sr.Close();
-            return texto;
+            return tex;
         }
+
         public static string BinaryToString(string data)
         {
             List<Byte> byteList = new List<Byte>();
@@ -80,7 +66,5 @@ namespace Binary
             }
             return Encoding.ASCII.GetString(byteList.ToArray());
         }
-
-
     }
 }
